@@ -28,11 +28,13 @@ GIT_AUTHOR_DATE="2025-06-10T07:00:07" GIT_COMMITTER_DATE="2025-06-10T07:00:07" g
 
 echo "Commit 8 line" >> README.md
 git add README.md
-GIT_AUTHOR_DATE="2025-06-10T07:10:08" GIT_COMMITTER_DATE="2025-06-10T07:10:08" git commit -m "Commit 8"
+GIT_AUTHOR_DATE="2025-06-10T07:10:08" GIT_COMMITTER_DATE="2025-06-10T07:10:08" git commit -m "Commit 8"git push
+
 
 echo "Commit 9 line" >> README.md
 git add README.md
 GIT_AUTHOR_DATE="2025-06-10T07:20:09" GIT_COMMITTER_DATE="2025-06-10T07:20:09" git commit -m "Commit 9"
+git push
 
 echo "Commit 10 line" >> README.md
 git add README.md
